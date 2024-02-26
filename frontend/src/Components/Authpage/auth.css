@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: cover;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background: fixed;
+}
+.wrapper {
+  width: 350px;
+  height: 460px;
+  margin-top: 50px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  box-shadow: 1px 3px 11px 0px rgba(0, 0, 0, 0.47);
+  color: black;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+.wrapper h1 {
+  font-size: 36px;
+  font-weight: bolder;
+  text-align: center;
+}
+.wrapper1 {
+  width: 350px;
+  height: 400px;
+  margin-top: 80px;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(5px);
+  box-shadow: 1px 3px 11px 0px rgba(0, 0, 0, 0.47);
+  color: black;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+.wrapper1 h1 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.input-box {
+  width: 100%;
+  height: 40px;
+  position: relative;
+  margin: 30px 0px;
+}
+.input-box input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid gray;
+  border-radius: 40px;
+  padding: 20px 45px 20px 20px;
+}
+.input-box input::placeholder {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+.wrapper .remember {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0px 15px;
+  color: blue;
+  margin-right: 3px;
+  margin-top: 8px;
+}
+.wrapper1 .remember {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0px 15px;
+  color: blue;
+  margin-right: 3px;
+  margin-top: 8px;
+}
+
+.btn {
+  width: 100%;
+  height: 40px;
+  background-color: #287ff0;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0px 0px 10px, rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  align-items: center;
+}
+.btn:hover {
+  background-color: #251f89;
+}
+.login-link {
+  text-align: center;
+  margin: 20px 0px 10px;
+  font-size: 13.5px;
+}
+.login-link p a {
+  color: green;
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 5px;
+}
+.login-link p a:hover {
+  text-decoration: underline;
+  color: blue;
+}

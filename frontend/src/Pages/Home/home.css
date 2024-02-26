@@ -1,0 +1,142 @@
+.book {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 400px;
+  gap: 0px;
+  margin-left: 450px;
+}
+.main-icon {
+  font-size: 3rem;
+}
+.text1 {
+  margin-top: 5px;
+}
+
+.botton1 {
+  width: 170px;
+  height: 40px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-left: 35px;
+  background: #17cf97;
+  border-radius: 20px;
+  border: none;
+}
+.botton1:hover {
+  background: skyblue;
+  color: #fff;
+}
+.contaner-box {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #8f50ec;
+  border-radius: 20px;
+  margin-top: 3%;
+  margin-left: 29%;
+}
+.main-box {
+  height: 400px;
+  width: 400px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+}
+.popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.text2 {
+  margin-top: 5px;
+  font-size: 35px;
+  font-weight: 300;
+  padding-top: 5px;
+  padding-left: 30px;
+  color: #8f50ec;
+}
+.btn2 {
+  width: 80px;
+  height: 40px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  color: black;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  gap: 15px;
+  padding-top: 10px;
+}
+.input-div {
+  width: 70%;
+  height: 40px;
+  margin-left: 65px;
+  position: relative;
+}
+.input-div input {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 20px;
+  border: 1px solid gray;
+}
+.inpu-div {
+  width: 70%;
+  height: 60px;
+  margin-left: 65px;
+  margin-top: 15px;
+}
+.inpu-div input {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  padding-left: 20px;
+  border: 1px solid gray;
+}
+.input-div span {
+  position: absolute;
+  left: 25%;
+  top: 27%;
+  text-transform: capitalize;
+  color: red;
+  font-size: 0.9rem;
+  font-weight: 100;
+}
+.inpu-div span {
+  position: absolute;
+  text-transform: capitalize;
+  color: red;
+  font-size: 0.9rem;
+  font-weight: 100;
+  left: 44%;
+  top: 58%;
+}
+.footer {
+  margin-top: 20px;
+  margin-left: 33%;
+  width: 150px;
+  height: 40px;
+}
+.btn3 {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  background: #8f50ec;
+  font-size: 1.1rem;
+  font-weight: 400;
+  color: #fff;
+}

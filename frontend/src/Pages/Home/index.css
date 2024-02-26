@@ -1,0 +1,45 @@
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcome {
+  width: 45%;
+  height: 450px;
+}
+.welcome h1 {
+  font-size: 60px;
+  text-transform: capitalize;
+  padding-top: 90px;
+  padding-left: 160px;
+  color: #264778;
+}
+.welcome h2 {
+  font-size: 40px;
+  text-transform: capitalize;
+  padding-left: 163px;
+  color: #264778;
+}
+.wel-img {
+  width: 50%;
+  height: 550px;
+}
+.wel-img img {
+  width: 100%;
+  height: 100%;
+  padding-right: 40px;
+}
+.wel-btn {
+  width: 180px;
+  height: 45px;
+  margin-top: 30px;
+  margin-left: 200px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: #ccb2da;
+  color: #264778;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
